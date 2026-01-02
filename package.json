@@ -1,6 +1,11 @@
 {
   "name": "rayshot",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "files": [
+    "cli.mjs",
+    "README.md",
+    "LICENSE"
+  ],
   "description": "Generate beautiful code screenshots from ray.so via CLI",
   "type": "module",
   "bin": {
