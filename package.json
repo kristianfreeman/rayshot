@@ -1,0 +1,39 @@
+{
+  "name": "rayshot",
+  "version": "1.0.0",
+  "description": "Generate beautiful code screenshots from ray.so via CLI",
+  "type": "module",
+  "bin": {
+    "rayshot": "./cli.mjs"
+  },
+  "scripts": {
+    "test": "node cli.mjs 'const x = 1;' -o /tmp/test.png"
+  },
+  "keywords": [
+    "screenshot",
+    "code",
+    "ray.so",
+    "raycast",
+    "cli",
+    "terminal",
+    "image",
+    "snippet",
+    "syntax-highlighting"
+  ],
+  "author": "Kristian Freeman",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristianfreeman/rayshot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kristianfreeman/rayshot/issues"
+  },
+  "homepage": "https://github.com/kristianfreeman/rayshot#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  }
+}
