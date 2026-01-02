@@ -2,7 +2,7 @@
 
 Generate beautiful code screenshots from [ray.so](https://ray.so) via the command line.
 
-![Example](https://ray.so/#theme=cloudflare&darkMode=true&padding=32&language=typescript&title=example.ts&code=Y29uc3QgZ3JlZXQgPSAobmFtZTogc3RyaW5nKSA9PiB7CiAgY29uc29sZS5sb2coYEhlbGxvLCAke25hbWV9IWApOwp9Ow==)
+![Example](example.png)
 
 ## Installation
 
